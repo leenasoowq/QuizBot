@@ -1,0 +1,28 @@
+.env
+venv/
+datasets/
+uploads/
+images/
+.vscode/
+results/
+translated_texts/
+.git copy/
+
+
+# Ignore ChromaDB files
+chroma_db/
+*.sqlite3
+*.pickle
+*.pkl
+*.bin
+
+# Ignore Python cache files
+__pycache__/
+*.pye
+*.pyc
+*.pyo
+
+# Ignore logs and JSON session files
+chat_sessions.json
+sftp.json
+*.log
